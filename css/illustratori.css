@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 20px;
+}
+
+section {
+    padding: 40px;
+}
+
+.immagine-home {
+    height: auto;
+    max-width: 100%;
+}
+
+h2 {
+    display: flex;
+    padding-left: 20px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.artisti {
+    margin: 0;
+    border-width: 5px;
+}
+
+.immagini-artisti {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px
+    ;
+}
+
+.immagini-artisti {
+  object-fit: cover;
+  width: 100%;
+  height: 80%;
+}
+
+.immagini-artisti div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+}
+
+.immagini-artisti img {
+    width: 100%;
+    height: fit-content;
+    object-fit: cover;
+    border-width: 5px;
+    border-style: solid;
+    border-color: blueviolet;
+}

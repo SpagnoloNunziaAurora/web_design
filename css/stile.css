@@ -1,0 +1,782 @@
+body {
+    background-color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+    margin: 0%;
+}
+
+header {
+    background-size: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30 px;
+    padding-right: 30px;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-transform: none;
+}
+header li{
+    margin: 0px 35px;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 60pt;
+}
+
+.-hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+h1{
+    font-size: 80px;
+    text-align: left;
+    margin: 0;
+}
+
+main{
+    display: flex;
+    padding: 40px;
+    gap: 10px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 0;
+}
+
+section.card img{
+    object-fit: cover;
+    width: 100%;
+    height: 80%;
+}
+
+footer {
+    margin: auto;
+    background-color: rgb(219, 216, 216);
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    }
+    
+    h3{
+        font-size: 60pt;
+        text-align: center;
+    }
+
+    .base{
+        text-align: center;
+        height: 100%;
+        width: 100%;
+    }
+
+    .button {
+        border: none;
+        color: white;
+        padding: auto;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 60pt;
+        margin: 20px;
+        cursor: pointer;
+    }
+
+    .button1 {
+        background-color: rgb(89, 116, 176);
+        padding: 50px;
+    }
+    .button2 {background-color: rgb(248, 195, 50);}
+    .button3 {background-color: rgb(17, 93, 2);}
+    .button4 {background-color: rgb(3, 23, 65);}
+    .button5 {background-color: rgb(174, 129, 101);}
+    .button6 {background-color: rgb(27, 146, 132);}
+
+    .button {
+        border-radius: 150px;
+       width: 100%;
+       padding-top: 30px;
+       padding-bottom: 30px;
+    }
+    .card img {
+        border-radius: 250px;
+        margin-bottom: 40px;
+    }
+
+    .card button{
+        padding: 110px;
+    }
+
+    .parent {
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(1, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        font-size: 20px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        }
+        
+        .div1 { grid-area: 5 / 1 / 6 / 2; }
+        .div2 { grid-area: 5 / 5 / 6 / 7; }
+
+.div2 li {
+    list-style: none;
+}
+.lista-footer ul li {
+    font-size: 18px;
+}
+
+.vocifooter {
+    font-size: 68px;
+    color: #ffffff;
+    line-height: 150px;
+}
+/* 1artista*/
+
+.iniziocamilio {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    }
+    
+    .titolo { grid-area: 2 / 2 / 3 / 10; }
+    .imgcamilio { grid-area: 3 / 3 / 6 / 9; }
+
+    .titolo h1 {
+        font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 128px;
+    line-height: 155px;
+    text-align: center;
+    color: #FFFFFF;
+    }
+
+  .bodyartista{
+    background-color: #9BAACB;
+  }
+    
+
+    .imgcamilio img{
+        display: block;
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: cover;
+        background-size: cover;
+    }
+
+    .contenuto2 {
+        display: grid;
+        grid-template-columns: repeat(1fr, 1fr);
+        grid-column-gap: 50px;
+        grid-row-gap: 50px;
+        background-size: cover;
+        background-color: #ffffff;
+        margin-top: 90px;
+        margin-bottom: 90px;
+        }
+        
+        .testo1 { grid-area: 2 / 2 / 3 / 6; }
+        .immagine1 { grid-area: 2 / 6 / 3 / 10; }
+        .immagine2 { grid-area: 3 / 2 / 4 / 6; }
+        .immagine3 { grid-area: 3 / 6 / 4 / 10; }
+
+        .immagine1 img{
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            display: block;
+         
+           
+        }
+        .immagine2 img{
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            display: block;
+          
+            
+        }
+        .immagine3 img{
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+           display: block;
+          
+        }
+        .testo1 {
+            font-size: 80px;
+        }
+        .imgcamilio img {
+            width: 100%;
+            height: 2800px;
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 0px;
+        }
+
+        .titolo h1 {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 800;
+            font-size: 408px;
+            line-height: 155px;
+            text-align: center;
+            margin-top: 90px;
+            margin-bottom: 130px;
+        }
+
+        .iniziocamilio {
+            margin-top: 150px;
+            margin-bottom: 150px;
+        }
+
+        /* 2artista */
+
+        .iniziotim {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 0px;
+            }
+            
+            .titolo1 { grid-area: 2 / 2 / 3 / 10; }
+            .imgtim { grid-area: 3 / 3 / 6 / 9; }
+        
+            .titolo1 h1 {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 128px;
+            line-height: 155px;
+            text-align: center;
+            color: #FFFFFF;
+            }
+        
+           .bodyartista1{
+            background-color: #F9DCA5;
+           }
+        
+            .tim4 img{
+                display: block;
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: cover;
+                background-size: cover;
+            }
+        
+            .contenuto3 {
+                display: grid;
+                grid-template-columns: repeat(1fr, 1fr);
+                grid-column-gap: 50px;
+                grid-row-gap: 50px;
+                background-size: cover;
+                background-color: #ffffff;
+                
+                }
+                
+                .testo2 { grid-area: 2 / 2 / 3 / 6; }
+                .tim4 { grid-area: 2 / 6 / 3 / 10; }
+                .tim5 { grid-area: 3 / 2 / 4 / 6; }
+                .tim6 { grid-area: 3 / 6 / 4 / 10; }
+        
+                .tim4 img{
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                    display: block;
+                   
+                   
+                }
+                .tim5 img{
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                    display: block;
+                  
+                }
+                .tim6 img{
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                   display: block;
+                   
+                   
+                }
+                .testo2 {
+                    font-size: 80px;
+                }
+                .imgtim img {
+                    width: 100%;
+                    height: 2800px;
+                    background-size: cover;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0px;
+                }
+        
+                .titolo1 h1 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 408px;
+                    line-height: 155px;
+                    text-align: center;
+                    margin-top: 90px;
+                    margin-bottom: 130px;
+                }
+        
+                .iniziotim {
+                    margin-top: 150px;
+                    margin-bottom: 150px;
+                }
+
+                /* 3artista */
+
+                .iniziokarlotta {
+                    display: grid;
+                    grid-template-columns: repeat(10, 1fr);
+                    grid-column-gap: 20px;
+                    grid-row-gap: 0px;
+                    }
+                    
+                    .titolo2 { grid-area: 2 / 2 / 3 / 10; }
+                    .imgkarlotta { grid-area: 3 / 3 / 6 / 9; }
+                
+                    .titolo2 h1 {
+                    font-family: 'Inter', sans-serif;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 128px;
+                    line-height: 155px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    }
+
+                    .bodyartista2{
+                        background-color: #A0BF97;
+                    }
+            
+                    .imgkarlotta{
+                        display: block;
+                        max-width: 100%;
+                        max-height: 100%;
+                        object-fit: cover;
+                        background-size: cover;
+                    }
+                
+                    .contenuto4 {
+                        display: grid;
+                        grid-template-columns: repeat(1fr, 1fr);
+                        grid-column-gap: 50px;
+                        grid-row-gap: 50px;
+                        background-size: cover;
+                        background-color: #ffffff;
+                        margin-top: 90px;
+                        margin-bottom: 90px;
+                        }
+                        
+                        .testo3 { grid-area: 2 / 2 / 3 / 6; }
+                        .immagine10 { grid-area: 2 / 6 / 3 / 10; }
+                        .immagine11 { grid-area: 3 / 2 / 4 / 6; }
+                        .immagine12 { grid-area: 3 / 6 / 4 / 10; }
+                
+                        .immagine10 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                           
+                           
+                        }
+                        .immagine11 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                          
+                            
+                        }
+                        .immagine12 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                           display: block;
+                           
+                           
+                        }
+                        .testo3 {
+                            font-size: 80px;
+                        }
+                        .imgkarlotta img {
+                            width: 100%;
+                            height: 2800px;
+                            background-size: cover;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 0px;
+                        }
+                
+                        .titolo2 h1 {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 408px;
+                            line-height: 155px;
+                            text-align: center;
+                            margin-top: 90px;
+                            margin-bottom: 130px;
+                        }
+                
+                        .iniziokarlotta {
+                            margin-top: 150px;
+                            margin-bottom: 150px;
+                        }
+
+                        /* 4artista */
+
+                .inizioxoana {
+                    display: grid;
+                    grid-template-columns: repeat(10, 1fr);
+                    grid-column-gap: 20px;
+                    grid-row-gap: 0px;
+                    }
+                    
+                    .titolo5 { grid-area: 2 / 2 / 3 / 10; }
+                    .imgxoana { grid-area: 3 / 3 / 6 / 9; }
+                
+                    .titolo5 h1 {
+                    font-family: 'Inter', sans-serif;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 128px;
+                    line-height: 155px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    }
+                
+                    .bodyartista5{
+                        background-color: #9FBBF3;
+                    }
+                  
+                
+                    .imgxoana{
+                        display: block;
+                        max-width: 100%;
+                        max-height: 100%;
+                        object-fit: cover;
+                        background-size: cover;
+                    }
+                
+                    .contenuto5 {
+                        display: grid;
+                        grid-template-columns: repeat(1fr, 1fr);
+                        grid-column-gap: 50px;
+                        grid-row-gap: 50px;
+                        background-size: cover;
+                        background-color: #ffffff;
+                        
+                        }
+                        
+                        .testo5 { grid-area: 2 / 2 / 3 / 6; }
+                        .xoana2 { grid-area: 2 / 6 / 3 / 10; }
+                        .xoana3 { grid-area: 3 / 2 / 4 / 6; }
+                        .xoana4 { grid-area: 3 / 6 / 4 / 10; }
+                
+                        .xoana2 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                          
+                           
+                        }
+                        .xoana3 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                       
+                            
+                        }
+                        .xoana4 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                           display: block;
+                          
+                           
+                        }
+                        .testo5 {
+                            font-size: 80px;
+                        }
+                        .imgxoana img {
+                            width: 100%;
+                            height: 2800px;
+                            background-size: cover;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 0px;
+                        }
+                
+                        .titolo5 h1 {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 408px;
+                            line-height: 155px;
+                            text-align: center;
+                            margin-top: 90px;
+                            margin-bottom: 130px;
+                        }
+                
+                        .inizioxoana {
+                            margin-top: 150px;
+                            margin-bottom: 150px;
+                        }
+
+                         /* 5artista */
+
+                .iniziolaboca {
+                    display: grid;
+                    grid-template-columns: repeat(10, 1fr);
+                    grid-column-gap: 20px;
+                    grid-row-gap: 0px;
+                    }
+                    
+                    .titolo7 { grid-area: 2 / 2 / 3 / 10; }
+                    .imglaboca{ grid-area: 3 / 3 / 6 / 9; }
+                
+                    .titolo7 h1 {
+                    font-family: 'Inter', sans-serif;
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 128px;
+                    line-height: 155px;
+                    text-align: center;
+                    color: #ffffff;
+                    }
+
+                    .bodyartista7{
+                        background-color: #B1DCDA;
+                    }
+                
+                   
+                
+                
+                    .imglaboca{
+                        display: block;
+                        max-width: 100%;
+                        max-height: 100%;
+                        object-fit: cover;
+                        background-size: cover;
+                    }
+                
+                    .contenuto7 {
+                        display: grid;
+                        grid-template-columns: repeat(1fr, 1fr);
+                        grid-column-gap: 50px;
+                        grid-row-gap: 50px;
+                        background-size: cover;
+                        background-color: #ffffff;
+                        margin-top: 90px;
+                        margin-bottom: 90px;
+                        }
+                        
+                        .testo7 { grid-area: 2 / 2 / 3 / 6; }
+                        .laboca1 { grid-area: 2 / 6 / 3 / 10; }
+                        .laboca2 { grid-area: 3 / 2 / 4 / 6; }
+                        .laboca4 { grid-area: 3 / 6 / 4 / 10; }
+                
+                        .laboca1 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                            
+                           
+                        }
+                        .laboca2 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                            display: block;
+                           
+                            
+                        }
+                        .laboca4 img{
+                            background-size: cover;
+                            height: 100%;
+                            width: 100%;
+                           display: block;
+                           
+                           
+                        }
+                        .testo7 {
+                            font-size: 80px;
+                        }
+                        .imglaboca img {
+                            width: 100%;
+                            height: 2800px;
+                            background-size: cover;
+                            justify-content: center;
+                            align-items: center;
+                            margin-bottom: 0px;
+                        }
+                
+                        .titolo7 h1 {
+                            font-family: 'Inter';
+                            font-style: normal;
+                            font-weight: 800;
+                            font-size: 408px;
+                            line-height: 155px;
+                            text-align: center;
+                            margin-top: 90px;
+                            margin-bottom: 130px;
+                        }
+                
+                        .iniziolaboca {
+                            margin-top: 150px;
+                            margin-bottom: 150px;
+                        }
+        /* 6artista */
+        .iniziolinn {
+            display: grid;
+            grid-template-columns: repeat(10, 1fr);
+            grid-column-gap: 20px;
+            grid-row-gap: 0px;
+            }
+            
+            .titolo6 { grid-area: 2 / 2 / 3 / 10; }
+            .imglinn{ grid-area: 3 / 3 / 6 / 9; }
+        
+            .titolo6 h1 {
+            font-family: 'Inter', sans-serif;
+            font-style: normal;
+            font-weight: 800;
+            font-size: 128px;
+            line-height: 155px;
+            text-align: center;
+            color: #ffffff;
+            }
+
+            
+            .linn1{
+                background-color: #CAB4A3;
+            }
+        
+        
+        
+            .imglinn {
+                display: block;
+                max-width: 100%;
+                max-height: 100%;
+                object-fit: cover;
+                background-size: cover;
+            }
+        
+            .contenuto6 {
+                display: grid;
+                grid-template-columns: repeat(1fr, 1fr);
+                grid-column-gap: 50px;
+                grid-row-gap: 50px;
+                background-size: cover;
+                background-color: #ffffff;
+                margin-top: 90px;
+                margin-bottom: 90px;
+                }
+                
+                .testo6 { grid-area: 2 / 2 / 3 / 6; }
+                .linn1 { grid-area: 2 / 6 / 3 / 10; }
+                .linn3 { grid-area: 3 / 2 / 4 / 6; }
+                .linn4 { grid-area: 3 / 6 / 4 / 10; }
+        
+                .linn1 img{
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                    display: block;
+                    
+                   
+                }
+                .linn3 img{
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                    display: block;
+                   
+                    
+                }
+                .linn4 img{
+                    background-size: cover;
+                    height: 100%;
+                    width: 100%;
+                   display: block;
+                   
+                   
+                }
+                .testo6 {
+                    font-size: 80px;
+                }
+                .imglinn img {
+                    width: 100%;
+                    height: 2800px;
+                    background-size: cover;
+                    justify-content: center;
+                    align-items: center;
+                    margin-bottom: 0px;
+                }
+        
+                .titolo6 h1 {
+                    font-family: 'Inter';
+                    font-style: normal;
+                    font-weight: 800;
+                    font-size: 408px;
+                    line-height: 155px;
+                    text-align: center;
+                    margin-top: 90px;
+                    margin-bottom: 130px;
+                }
+        
+                .iniziolinn {
+                    margin-top: 150px;
+                    margin-bottom: 150px;
+                }
+
+        
+
+
+
+                h3{
+                    font-size: 120pt;
+                    text-align: center;
+                }
+
+p{
+    text-align: center;
+    font-size: 60pt;
+}
